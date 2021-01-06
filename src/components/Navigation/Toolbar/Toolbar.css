@@ -22,8 +22,28 @@
 
 .Toolbar nav{
     height: 100%;
+}
+
+.Toolbar_ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /*to aline all the items next to each other*/
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
     
 }
+
+.Toolbar_ul li{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 6px 0px 0px 0px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
 
 .Logo{
     height: 80%;

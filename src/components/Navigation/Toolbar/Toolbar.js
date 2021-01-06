@@ -12,11 +12,15 @@ const toolbar = (props) => (
     <header id='toolbar' className='Toolbar'>
         <DrawerToggle clicked={props.drawerToggleClicked}/>
         {/*<Logo height="80%"/> //another aproach for adjusting movil and desktop preferences*/}
-        <div className={classes.Logo}>
+        <div className='Logo'>
             <Logo/>
         </div>
-        <nav className={classes.DesktopOnly}>
-            {/*<NavigationItems/>*/}
+        <nav className='DesktopOnly'>
+            <ul className='Toolbar_ul'>
+                <li>
+                    <p>Diego Sevilla</p>
+                </li>
+            </ul>
         </nav>
     </header>
 );
