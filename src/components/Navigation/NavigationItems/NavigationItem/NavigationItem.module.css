@@ -6,7 +6,6 @@
 }
 
 .NavigationItem a{
-    
     color: #40A4C8;
     text-decoration: none;
     height: 100%;
@@ -35,6 +34,10 @@
         height: 100%;
         padding: 16px 10px; 
         border-bottom: 4px solid transparent; /*will be invisible but will become important once we hover over it*/
+    }
+
+    .NavigationItem_anchor{
+        color: whitesmoke;
     }
     
     .NavigationItem a:hover,

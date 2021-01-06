@@ -17,23 +17,26 @@ class Layout extends Component{
     }*/
     state = {
         showSideDrawer: false,
-        showNavbar: false
+        showNavbar: true
     }
 
     hideNavbarOnScrollHandler = () => {
         //let header = document.getElementById('headercontent'); 
 
         //let floatingToolbar = document.getElementById('floating_toolbar');
-        //let headernav = document.getElementById('headernav');
+        let toolbar = document.getElementById('toolbar');
+
         let windowsScrollTop = window.pageYOffset;
         if(windowsScrollTop <= 660){
             //header.classList.remove('bgColor');
 
-            //floatingToolbar.classList.remove('FloatingToolbar_display');
+            //floatingToolbar.classList.add('FloatingToolbar-hide');
+            toolbar.classList.remove('hide');
             this.setState({showNavbar: true})
         }else{           
             //header.classList.add('bgColor');
-            //floatingToolbar.classList.add('FloatingToolbar_display');
+            //floatingToolbar.classList.remove('FloatingToolbar-hide');
+            toolbar.classList.add('hide');
             this.setState({showNavbar: false})
         }
     }
