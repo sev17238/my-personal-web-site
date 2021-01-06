@@ -1,0 +1,46 @@
+
+
+.Experiences{
+    width: 100%;
+    background-color: rgba(222, 224, 208, 1);
+}
+
+.innerDivExperiences{
+    width: 85%;
+    margin: auto;
+}
+
+.div2-exp{
+    width: 100%;
+    padding-bottom: 2.5%; 
+    /*background-color: rgba(208, 204, 208, 1);*/
+    background-color: rgba(222, 224, 208, 1);
+}
+
+.div-titleExperiences{
+    align-content: center;
+}
+
+.titleExperiences{
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0.4em;
+    padding-top: 0.5em;
+    color: rgba(1, 25, 54, 1);
+    border-bottom: 1px solid rgb(180, 182, 168);
+}
+
+.edu-exp{
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    padding: 1em;
+    padding-bottom: 0.4em;
+    /*padding-top: 0.5em;
+    //margin-left: 2.5em;*/
+    color: rgb(2, 49, 107);
+}

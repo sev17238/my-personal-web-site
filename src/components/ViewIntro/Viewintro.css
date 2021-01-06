@@ -1,0 +1,73 @@
+
+/*Thinking Cloud ---------------------------------------------------------*/
+.ViewIntroSection{
+    /*height: 100vh;*/
+    position: relative;
+}
+
+.test{
+    width: 100%;
+}
+
+.divv1-cloud{
+    height: 41.7em;
+}
+
+.divv2-center-cloud{
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    height: 13%;
+    width: 15%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 75%;
+    transition-duration: 0.5s;
+}
+.divv2-center-cloud:hover{
+    top: 37%;
+    transform: translateY(2px);
+    height: 14%;
+    width: 16%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.cloud1{
+    position: absolute;
+    bottom: -20%;
+    right: 70%;
+    height: 28%;
+    width: 16%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 80%;
+}
+
+.cloud2{
+    position: absolute;
+    bottom: -30%;
+    right: 85%;
+    height: 14%;
+    width: 7%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 80%;
+}
+
+.Name{
+    font-size: 1.25em;
+    color: rgb(0, 52, 116);
+    font-weight: 900;
+    margin: 5%;
+    margin-top: 0;
+}
+
+.NameIntro{
+    font-size: 0.85em;
+    color: rgb(0, 52, 116);
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top:7%;
+}
+/* ----------------------------------------------------------------*/
