@@ -1,7 +1,8 @@
 .div1-pro{
     width: 100%;
-    background-color: rgba(85, 53, 85, 0.85);
+    /*background-color: rgba(85, 53, 85, 0.85);*/
     /*background-color:  rgba(70, 83, 98, 0.75);*/
+    background-color: rgba(222, 224, 208, 1); 
 }
 
 .innerDivProjects{
@@ -25,9 +26,11 @@
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    color: rgba(222, 224, 208, 1);
-    border-bottom: 1px solid rgba(56, 35, 56,0.85); 
+    /*color: rgba(222, 224, 208, 1);*/
+    color: rgba(1, 25, 54, 1);
+    /*border-bottom: 1px solid rgba(56, 35, 56,0.85); */
     /*border-bottom: 1px solid rgba(152, 179, 178, 1);*/
+    border-bottom: 1px solid rgb(180, 182, 168); 
 }
 
 .card-title{

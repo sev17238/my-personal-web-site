@@ -3,6 +3,8 @@ import Aux from '../Auxiliary/Auxiliary';
 
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Navigation/Header/Header';
+import FloatingToolbar from '../../components/Navigation/FloatingToolbar/FloatingToolbar';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component{
     constructor(props){   
@@ -29,6 +31,8 @@ class Layout extends Component{
         return(
             <Aux>
                 <Header/>
+                {/*<FloatingToolbar/>
+                <SideDrawer/>*/}
                 <main>
                     {this.props.children}
                 </main>
