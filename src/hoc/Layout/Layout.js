@@ -17,7 +17,7 @@ class Layout extends Component{
         let header = document.getElementById('headercontent'); 
         //let headernav = document.getElementById('headernav');
         let windowsScrollTop = window.pageYOffset;
-        if(windowsScrollTop <= 350){
+        if(windowsScrollTop <= 420){
             header.classList.remove('bgColor');
         }else{           
             header.classList.add('bgColor');
