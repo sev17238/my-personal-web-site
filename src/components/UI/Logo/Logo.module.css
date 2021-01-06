@@ -2,9 +2,9 @@
     position: relative;
     border-radius: 100%;
     background-color: rgba(1, 25, 54, 0.75);
-    width: 56px;
-    height: 56px;
-    top: -18px;
+    width: 46px;
+    height: 46px;
+    /*top: -18px;*/
     transition-duration: 0.5s;
 }
 
@@ -17,9 +17,9 @@
 .DS_div p{
     position: absolute;
     width:100%;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    top:10px;
+    top:8px;
     font-weight: 600
 }
 

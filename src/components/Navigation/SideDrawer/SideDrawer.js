@@ -1,5 +1,5 @@
 import React from 'react';
-//import Logo from '../../Logo/Logo';
+import Logo from '../../UI/Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import classes from './SideDrawer.module.css';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -22,7 +22,7 @@ const sideDrawer = (props) => {
             <div className={attachedClasses.join(' ')}> {/*attach classes as a single string*/}
                 {/*<Logo height="11%"/> //another aproach for adjusting movil and desktop preferences*/}
                 <div className={classes.Logo}>
-                    {/*<Logo/>*/}
+                    <Logo/>
                 </div>
                 <nav>
                     <NavigationItems/>

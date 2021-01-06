@@ -13,7 +13,7 @@ const navigationItem = (props) => (
         to={props.link} >
             {props.children}
         </NavLink>*/}
-        <a >
+        <a href={'#'+props.tag}>
             {props.children}
         </a>
     </li>

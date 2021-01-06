@@ -6,10 +6,11 @@ import NavigationItem from './NavigationItem/NavigationItem';
  */
 const navigationItems = () =>(
     <ul className={classes.NavigationItems}>
-        <NavigationItem tag="aboutme">About Me</NavigationItem>
+        <NavigationItem tag="about_me">About Me</NavigationItem>
         <NavigationItem tag="experiences">Experiences</NavigationItem>
         <NavigationItem tag="abilities">Abilities</NavigationItem>
-        <NavigationItem tag="projects">Hobbies</NavigationItem>
+        <NavigationItem tag="projects">Projects</NavigationItem>
+        <NavigationItem tag="hobbies">Hobbies</NavigationItem>
         <NavigationItem tag="contact">Contact</NavigationItem>
     </ul>
 );
