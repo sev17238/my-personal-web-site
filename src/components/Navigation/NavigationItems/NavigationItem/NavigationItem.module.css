@@ -11,6 +11,7 @@
     height: 100%;
     box-sizing: border-box; /*to make sure the height includes the border and the padding*/
     display: block; /*so the height has an effect*/
+    width: 100%;
 }
 
 .NavigationItem a:hover,
@@ -31,9 +32,11 @@
     
     .NavigationItem a{
         color: rgba(152, 179, 178, 1);
-        height: 100%;
-        padding: 16px 10px; 
+        /*height: 100%;*/
+        padding: 16px 25px;
+        overflow: hidden;
         border-bottom: 4px solid transparent; /*will be invisible but will become important once we hover over it*/
+        width: 100%;
     }
 
     .NavigationItem_anchor{

@@ -18,7 +18,7 @@ export default class AboutMe extends React.Component {
             <section className='section-AboutMe'>
                 <div id="about_me" className='AboutMe'>
                     <div className='inner-div-AboutMe'>
-                        <h3 className='title-AboutMe'>About me</h3>
+                        <h3 className='title-AboutMe'>Profile</h3>
                         <Row className='row'>
                             <Col className='column-left-AboutMe'>
                                 <Slide left>
