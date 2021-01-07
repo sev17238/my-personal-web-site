@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Aux from '../Auxiliary/Auxiliary';
 
 import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Navigation/Header/Header';
 import FloatingToolbar from '../../components/Navigation/FloatingToolbar/FloatingToolbar';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
@@ -20,25 +19,27 @@ class Layout extends Component{
         showNavbar: true
     }
 
-    hideNavbarOnScrollHandler = () => {
-        //let header = document.getElementById('headercontent'); 
-
-        //let floatingToolbar = document.getElementById('floating_toolbar');
+    OnScrollHandler = () => {
         let toolbar = document.getElementById('toolbar');
-
         let windowsScrollTop = window.pageYOffset;
         if(windowsScrollTop <= 660){
-            //header.classList.remove('bgColor');
-
-            //floatingToolbar.classList.add('FloatingToolbar-hide');
-            toolbar.classList.remove('hide');
             this.setState({showNavbar: true})
         }else{           
-            //header.classList.add('bgColor');
-            //floatingToolbar.classList.remove('FloatingToolbar-hide');
-            toolbar.classList.add('hide');
             this.setState({showNavbar: false})
         }
+        if(window.innerWidth > 800){
+            if(windowsScrollTop <= 660){
+                toolbar.classList.remove('hide');
+            }else if (windowsScrollTop > 661 ){           
+                toolbar.classList.add('hide');
+            }
+        }else if(window.innerWidth <= 799){
+            toolbar.classList.remove('hide');
+        }
+    }
+
+    sideDrawerClosedHandler = () =>{
+        this.setState({showSideDrawer: false})
     }
 
     sideDrawerToggleHandler = () =>{ /*Always use prevState when setting state that depends on the oldState.*/
@@ -48,13 +49,14 @@ class Layout extends Component{
     }
 
     render(){
-        window.addEventListener('scroll', this.hideNavbarOnScrollHandler);
+        window.addEventListener('scroll', this.OnScrollHandler);
         return(
             <Aux>
-                {/*<Header />*/}
-                <Toolbar/>
+                <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
                 <FloatingToolbar hide={this.state.showNavbar}/>
-                <SideDrawer/>
+                <SideDrawer
+                    open={this.state.showSideDrawer} 
+                    closed={this.sideDrawerClosedHandler}/>
                 <main>
                     {this.props.children}
                 </main>

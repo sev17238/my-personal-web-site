@@ -12,7 +12,6 @@ import Aux from '../../../hoc/Auxiliary/Auxiliary';
 const sideDrawer = (props) => {
     let attachedClasses = [classes.SideDrawer,classes.Close]
     if(props.open){
-        console.log("props.open: "+props.open);
         attachedClasses = [classes.SideDrawer,classes.Open]
     }
 

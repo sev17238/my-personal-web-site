@@ -15,8 +15,8 @@
     top: 20px;
 }
 
-@media (max-width: 499px){
-    .DesktopOnly{
+@media (max-width: 800px){
+    .FloatingToolbar_DesktopOnly{
         display: none;
     }
 }

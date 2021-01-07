@@ -13,11 +13,7 @@
 }
 
 .hide{
-    /*background-color: rgba(245, 245, 245, 0.85);*/
-    /*top:-100px;
-    transition-duration: 0.5s;*/
     display: none;
-    transition-duration: 1s;
 }
 
 .Toolbar nav{
@@ -48,15 +44,14 @@
 .Logo{
     height: 80%;
 }
-/*
-@media (max-width: 499px){
-    .DesktopOnly{
-        display: none;
-    }
-}
-*/
+
+
 @media (max-width: 800px) {
     .Toolbar{ 
         background-color: whitesmoke;
+    }
+
+    .DesktopOnly{
+        display: none;
     }
 }

@@ -9,7 +9,7 @@ const floatingToolbar = (props) =>{
     if(!props.hide){
         floatingT = (
             <div id='floating_toolbar' className='FloatingToolbar'>
-                <nav className='DesktopOnly'>
+                <nav className='FloatingToolbar_DesktopOnly'>
                     {/*<a href="#aboutme">About Me</a>
                     <a href="#experiences">Experiences</a>
                     <a href="#projects">Projects</a>
