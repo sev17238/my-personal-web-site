@@ -1,13 +1,12 @@
 .section-AboutMe{
     /*height: 100vh;*/
     position: relative;
+    width: 100%;
+    background-color: rgb(25, 24, 26);
 }
 
 .AboutMe{
-    width: 100%;
-    height: auto;
-    background-color: rgb(25, 24, 26);
-    align-items: center;
+    margin: auto;
     font-family: 'Krub', sans-serif;
 }
 

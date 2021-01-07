@@ -100,8 +100,8 @@ export default class AboutMe extends React.Component {
                         <h3 className='title-AboutMe'>Profile</h3>
                         {rowsToRender}
                     </div>
+                    <Quote border quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
                 </div>
-                <Quote border quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
             </section>
         );
     }
