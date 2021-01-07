@@ -61,7 +61,7 @@ export default class AboutMe extends React.Component {
                                     <h4 className='h4-AboutMe'>Name: </h4>
                                     <p className='p-AboutMe'>Diego Sevilla </p>
                                     <h4 className='h4-AboutMe'>Age: </h4>
-                                    <p className='p-AboutMe'>23 </p>
+                                    <p className='p-AboutMe'>23 Years</p>
                                     <h4 className='h4-AboutMe'>Location: </h4>
                                     <p className='p-AboutMe'>Guatemala City, Guatemala </p>
                                 </div>

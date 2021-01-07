@@ -23,7 +23,7 @@ class Container extends Component {
     }
 
     render() {
-        window.addEventListener('scroll', this.calculeScreenWidth);
+        window.addEventListener('resize', this.calculeScreenWidth);
         return (
             <Aux>
                 <ViewIntro/>
