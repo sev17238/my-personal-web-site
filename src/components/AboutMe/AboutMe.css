@@ -16,24 +16,6 @@
     margin: auto;
 }
 
-.p-AboutMe{
-    font-size: 1em;
-    color: whitesmoke;
-}
-
-.p-AboutMe-description{
-    font-size: 1em;
-    color: whitesmoke;
-    padding-top: 25%;
-
-    text-align: right;
-}
-
-.h4-AboutMe{
-    font-size: 1.5em;
-    color: whitesmoke;
-}
-
 .title-AboutMe{
     width: 100%;
     font-size: 3em;
@@ -46,51 +28,22 @@
     border-bottom: 1px solid rgb(44, 43, 46);
 }
 
-.div-image-AboutMe{
-    width: 100%;
-    align-content: center;
-}
-
-.image-AboutMe{
-    width: 90%;
-    border-radius: 100%;
-    border: 10px solid rgba(47, 45, 48, 0.85);
-    /*align-content: center;*/
-}
-
 .column-left-AboutMe{
 
 }
 
-.column-center-AboutMe{
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
+
 .column-right-AboutMe{
     padding-bottom: 5%;
 }
 
-.column-div{
-    text-align: left;
-    padding-left: 15%;
-    padding-top: 18%;
-}
 
-.column-div-2{
-    text-align: right;
-    padding-right: 15%;
-}
 
 .extra-div{
     width: 5%;
     padding-top: 10%;
 }
-/*
-.row{
-    width: 100%;
-    margin: 0;
-}
-*/
+
 .anchor-AboutMe{
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
@@ -101,4 +54,134 @@
     text-decoration: none; /*remove underline from hyperlink*/
     transition-duration: 0.25s;
     color:rgba(147, 183, 190, 0.85);
+}
+
+.image-AboutMe{
+    width: 90%;
+    border-radius: 100%;
+    border: 10px solid rgba(47, 45, 48, 0.85);
+}
+
+@media (min-width: 149px) and (min-height: 400px) {
+    .div-image-AboutMe{
+        width: 85%;
+        align-content: center;
+        margin: auto;
+    }
+
+    .column-div{
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .column-div-2{
+        text-align: right;
+    }
+
+    .column-center-AboutMe{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .p-AboutMe-description{
+        font-size: 1em;
+        color: whitesmoke;
+        padding-top: 5%;
+    
+        text-align: center;
+    }
+
+    .p-AboutMe{
+        font-size: 1em;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .h4-AboutMe{
+        font-size: 1.5em;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .div-image-AboutMe{
+        width: 60%;
+        align-content: center;
+        margin: auto;
+    }
+
+    .column-div{
+        text-align: left;
+        padding-top: 5%;
+    }
+
+    .column-div-2{
+        text-align: right;
+    }
+
+    .column-center-AboutMe{
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .p-AboutMe-description{
+        font-size: 1em;
+        color: whitesmoke;
+        padding-top: 5%;
+    
+        text-align: center;
+    }
+
+    .p-AboutMe{
+        font-size: 1em;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .h4-AboutMe{
+        font-size: 1.5em;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+
+@media (min-width: 800px){
+    .div-image-AboutMe{
+        width: 100%;
+        align-content: center;
+    }
+
+    .column-div{
+        text-align: left;
+        padding-left: 15%;
+        padding-top: 18%;
+    }
+
+    .column-div-2{
+        text-align: right;
+        padding-right: 15%;
+    }
+
+    .column-center-AboutMe{
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .p-AboutMe-description{
+        font-size: 1em;
+        color: whitesmoke;
+        padding-top: 25%;
+        text-align: right;
+    }
+
+    .p-AboutMe{
+        font-size: 1em;
+        color: whitesmoke;
+    }
+
+    .h4-AboutMe{
+        font-size: 1.5em;
+        color: whitesmoke;
+    }
 }

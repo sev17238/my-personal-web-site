@@ -11,7 +11,7 @@
 
 
 /* ----------------------------------------------------------------*/
-@media (min-width: 250px) and (min-height: 400px) {
+@media (min-width: 149px) and (min-height: 400px) {
     .divv1-cloud{
         height: 35em;
     }
@@ -93,7 +93,6 @@
         transition-duration: 0.5s;
     }
 
-    
     .divv2-center-cloud:hover{
         top: 37%;
         transform: translateY(2px);

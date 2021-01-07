@@ -19,7 +19,7 @@ class Layout extends Component{
         showNavbar: true
     }
 
-    OnScrollHandler = () => {
+    onScrollHandler = () => {
         let toolbar = document.getElementById('toolbar');
         let windowsScrollTop = window.pageYOffset;
         if(windowsScrollTop <= 660){
@@ -49,7 +49,7 @@ class Layout extends Component{
     }
 
     render(){
-        window.addEventListener('scroll', this.OnScrollHandler);
+        window.addEventListener('scroll', this.onScrollHandler);
         return(
             <Aux>
                 <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>

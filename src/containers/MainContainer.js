@@ -13,11 +13,21 @@ import Hobbies from '../components/Hobbies/Hobbies';
 import Aux from '../hoc/Auxiliary/Auxiliary';
 
 class Container extends Component {
+
+    state={
+        screenWidth: null
+    }
+
+    calculeScreenWidth = () => {
+        this.setState({screenWidth: window.innerWidth})
+    }
+
     render() {
+        window.addEventListener('scroll', this.calculeScreenWidth);
         return (
             <Aux>
                 <ViewIntro/>
-                <AboutMe/>
+                <AboutMe width={this.state.screenWidth}/>
                 <Experiences/>
                 <Abilities/>
                 <Projects/>
