@@ -14,8 +14,8 @@
 /* ----------------------------------------------------------------*/
 @media (min-width: 149px) and (min-height: 400px) {
     .divv1-cloud{
-        height: 35em;
-        
+        /*height: 35em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
@@ -80,7 +80,8 @@
 
 @media (min-width: 500px) and (min-height: 400px) {
     .divv1-cloud{
-        height: 37.5em;
+        /*height: 37.5em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
@@ -141,11 +142,17 @@
         margin-bottom: 0;
         margin-top:15%;
     }
+
+    /*.ViewIntroSection{
+        height: 100vh;
+    }*/
+    
 }
 
 @media (min-width: 800px) and (min-height: 401px) {
     .divv1-cloud{
-        height: 41.7em;
+        /*height: 41.7em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
