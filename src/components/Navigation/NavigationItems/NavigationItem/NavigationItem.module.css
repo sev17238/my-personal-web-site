@@ -10,8 +10,8 @@
     overflow: hidden;
     border-bottom: 4px solid transparent; /*will be invisible but will become important once we hover over it*/
     width: 100%;
-    padding-left: 117px;
-    padding-right: 117px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
 .NavigationItem a:hover,
