@@ -4,6 +4,7 @@
 import React,{Component} from 'react';
 import './Footer.css';
 import Pulse from 'react-reveal/Pulse';
+import Quote from '../../components/Quote/Quote';
 
 class Footer extends Component {
     render() {
@@ -14,7 +15,7 @@ class Footer extends Component {
                     <div className='div1-footer'>
                         <div className='footer-content'>
                         <div className='div-quote-ft'>
-                                <div className='div-quote-in-ft'>
+                                {/*<div className='div-quote-in-ft'>
                                     <Pulse>
                                         <p className='p-quote-ft'>
                                             "Just smile! Things are better that way!"
@@ -23,7 +24,8 @@ class Footer extends Component {
                                             - Diego Sevilla, 2020
                                         </p>
                                     </Pulse>
-                                </div>
+                                </div>*/}
+                                <Quote quote='"Just smile! Things are better that way!"' author='- Diego Sevilla, 2020'/>
                             </div>
                             <p className='get-in-touch'>Get in touch with me!</p>
                             <ul className='footer-links'>

@@ -1,5 +1,8 @@
 .div-quote{
     width: 100%;
+}
+
+.div-quote-background{
     background-color: rgb(25, 24, 26);
     border-top: 3px dashed rgba(47, 45, 48, 0.85);
 }
@@ -8,21 +11,62 @@
     padding: 2%;
 }
 
-.p-quote{
-    font-size: 2em;
-    color: rgba(222, 224, 208, 1);
-    font-style: italic;
-    text-align: center;
-    transition-duration: 0.5s;
-}
-.p-quote:hover{
-    font-size: 2.1em;
-    transition-duration: 0.5s;
-    cursor: pointer;
+@media(min-width: 149px){
+    .p-quote{
+        font-size: 1.4em;
+        color: rgba(222, 224, 208, 1);
+        font-style: italic;
+        text-align: center;
+        transition-duration: 0.5s;
+    }
+    .p-quote:hover{
+        font-size: 1.5em;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .p-quote-ref{   
+        font-size: 0.9em;
+        color: rgba(222, 224, 208, 1);
+        text-align: center;
+    }
 }
 
-.p-quote-ref{   
-    font-size: 1.5em;
-    color: rgba(222, 224, 208, 1);
-    text-align: center;
+@media(min-width: 500px){
+    .p-quote{
+        font-size: 1.8em;
+        color: rgba(222, 224, 208, 1);
+        font-style: italic;
+        text-align: center;
+        transition-duration: 0.5s;
+    }
+    .p-quote:hover{
+        font-size: 1.9em;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .p-quote-ref{   
+        font-size: 1.2em;
+        color: rgba(222, 224, 208, 1);
+        text-align: center;
+    }
+}
+
+@media(min-width: 800px){
+    .p-quote{
+        font-size: 2em;
+        color: rgba(222, 224, 208, 1);
+        font-style: italic;
+        text-align: center;
+        transition-duration: 0.5s;
+    }
+    .p-quote:hover{
+        font-size: 2.1em;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .p-quote-ref{   
+        font-size: 1.5em;
+        color: rgba(222, 224, 208, 1);
+        text-align: center;
+    }
 }

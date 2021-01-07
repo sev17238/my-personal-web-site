@@ -101,7 +101,7 @@ export default class AboutMe extends React.Component {
                         {rowsToRender}
                     </div>
                 </div>
-                <Quote quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
+                <Quote border quote='"Talent is just a myth, you only need practice."' author='- Diego Sevilla, 2020'/>
             </section>
         );
     }
