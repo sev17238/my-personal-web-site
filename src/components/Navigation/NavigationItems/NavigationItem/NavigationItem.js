@@ -13,7 +13,7 @@ const navigationItem = (props) => (
         to={props.link} >
             {props.children}
         </NavLink>*/}
-        <a href={'#'+props.tag}>
+        <a onClick={props.clicked} href={'#'+props.tag}>
             {props.children}
         </a>
     </li>
