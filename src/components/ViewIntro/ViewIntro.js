@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 
 import AwesomeView from '../../images/skyme.JPG';
 
-const viewIntro = (props) =>{
+const viewIntro = () =>{
 
     return(
         <section className='ViewIntroSection'>

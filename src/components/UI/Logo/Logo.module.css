@@ -1,0 +1,45 @@
+.DS_div{
+    position: relative;
+    border-radius: 100%;
+    background-color: rgba(1, 25, 54, 0.75);
+    width: 46px;
+    height: 46px;
+    /*top: -18px;*/
+    transition-duration: 0.5s;
+}
+
+.DS_div:hover{
+    opacity: .75;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.DS_div p{
+    position: absolute;
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+    top:8px;
+    font-weight: 600
+}
+
+.DS_div a{
+    text-decoration: none;
+    color:#fff;
+    transition-duration: 0.4s;
+}
+
+.DS_div a:hover{
+    text-decoration: none;
+    color:rgb(231, 231, 231);
+    transition-duration: 0.4s;
+}
+
+/* ---------------------------------------
+//----------------------------------------------------------*/
+/*
+@media (max-width: 800px) {
+    .DS_div {
+        display: none;
+    }
+}*/

@@ -1,0 +1,24 @@
+.FloatingToolbar{
+    width: 95px;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 2%;
+    background: whitesmoke;
+    overflow-x: hidden;
+    /*padding: 8px 0;*/
+    transition: transform 0.3s ease-out;
+}
+
+.FloatingToolbar-hide{
+    display: none;
+    top: 20px;
+}
+
+@media (max-width: 800px){
+    .FloatingToolbar_DesktopOnly{
+        display: none;
+    }
+}
+
+

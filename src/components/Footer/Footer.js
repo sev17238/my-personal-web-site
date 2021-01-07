@@ -1,11 +1,11 @@
 /*
     ./client/components/Footer.jsx
 */
-import React from 'react';
+import React,{Component} from 'react';
 import './Footer.css';
 import Pulse from 'react-reveal/Pulse';
 
-export default class Footer extends React.Component {
+class Footer extends Component {
     render() {
         return (
             <footer id='contact' className='footer'>
@@ -36,7 +36,7 @@ export default class Footer extends React.Component {
                                 </li>
                                 <li className='footer-links-in'>
                                     <span className='inline-span'>
-                                        <a className='email' href="">
+                                        <a className='email'>
                                             <i className="fas fa-at" style={{color: "whitesmoke", fontSize: "48px", opacity: "0.8"}}></i>
                                             sevilla.diego8@gmail.com  
                                         </a>   
@@ -51,3 +51,6 @@ export default class Footer extends React.Component {
         );
     }
 }
+
+
+export default Footer;

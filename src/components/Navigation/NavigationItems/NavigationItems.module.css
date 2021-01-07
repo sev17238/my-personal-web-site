@@ -1,0 +1,16 @@
+.NavigationItems{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /*to aline all the items next to each other*/
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+}
+
+@media (min-width: 700px){
+    /*.NavigationItems{
+        //flex-flow: row;
+        flex-flow: column;
+    }*/
+}
