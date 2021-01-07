@@ -1,8 +1,6 @@
 
 /*Hobbies ----------------------------------------------------------*/
-.div1-hobbies{
-    height: 35em;
-}
+
 
 .divv2-center-hobbies{
     position: absolute;
@@ -17,7 +15,6 @@
 }
 
 .p-hobbies{
-    font-size: 5em;
     color: whitesmoke;
     font-weight: bold;
     margin: 5%;
@@ -27,3 +24,29 @@
 }
 
 /*//---------------------------------------------------------------*/
+@media (min-width: 149px){
+    .p-hobbies{
+        font-size: 2em;;
+    }
+    .div1-hobbies{
+        height: 22em;
+    }
+}
+
+@media (min-width: 500px){
+    .p-hobbies{
+        font-size: 3em;;
+    }
+    .div1-hobbies{
+        height: 27em;
+    }
+}
+
+@media (min-width: 800px){
+    .p-hobbies{
+        font-size: 3.5em;;
+    }
+    .div1-hobbies{
+        height: 35em;
+    }
+}

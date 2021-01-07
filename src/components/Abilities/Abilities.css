@@ -15,7 +15,6 @@
 
 .title-ab{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
@@ -41,7 +40,6 @@
 
 .subtitle-ab{
     width: 100%;
-    font-size: 2em;
     font-weight: bold;
     text-align: left;
     padding: 1em;
@@ -61,3 +59,29 @@
 /*abilities module--------------------------------------------------------
 
 // ------------------------------------------------------------------------*/
+@media (min-width: 149px){
+    .title-ab{
+        font-size: 2em;
+    }
+    .subtitle-ab{
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 500px){
+    .title-ab{
+        font-size: 2.6em;
+    }
+    .subtitle-ab{
+        font-size: 1.7em;
+    }
+}
+
+@media (min-width: 800px){
+    .title-ab{
+        font-size: 3em;
+    }
+    .subtitle-ab{
+        font-size: 2em;
+    }
+}

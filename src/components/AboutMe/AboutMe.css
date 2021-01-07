@@ -1,4 +1,3 @@
-
 .section-AboutMe{
     /*height: 100vh;*/
     position: relative;
@@ -18,7 +17,6 @@
 
 .title-AboutMe{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
@@ -102,6 +100,10 @@
         color: whitesmoke;
         text-align: center;
     }
+
+    .title-AboutMe{
+        font-size: 2em;
+    }
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
@@ -144,6 +146,10 @@
         color: whitesmoke;
         text-align: center;
     }
+
+    .title-AboutMe{
+        font-size: 2.6em;
+    }
 }
 
 @media (min-width: 800px){
@@ -185,5 +191,9 @@
         font-size: 1.5em;
         color: whitesmoke;
         text-align: left;
+    }
+
+    .title-AboutMe{
+        font-size: 3em;
     }
 }

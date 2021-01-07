@@ -18,7 +18,7 @@ class Experiences extends Component {
 
     render() {
         return (
-            <section>
+            <section className='section-Experiences'> 
                 <div id='experiences' className='Experiences'>
                     <div className='innerDivExperiences'>
                         <h3 className='titleExperiences'>Experiences</h3>
