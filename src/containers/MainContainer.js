@@ -30,7 +30,7 @@ class Container extends Component {
                 <AboutMe width={this.state.screenWidth}/>
                 <Experiences width={this.state.screenWidth}/>
                 <Abilities/>
-                <Projects/>
+                <Projects width={this.state.screenWidth}/>
                 <Hobbies/>
             </Aux>
         );

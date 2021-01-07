@@ -8,10 +8,6 @@
     margin: auto;
 }
 
-.div2-pro{
-    padding-bottom: 2.5%; 
-}
-
 .div-title-pro{
     align-content: center;
 }
@@ -27,19 +23,19 @@
     border-bottom: 1px solid rgb(180, 182, 168); 
 }
 
+.Card-container{
+    margin: 1.25em;
+}
+
 .card-title{
-    font-size: 1.5em;
     font-weight: bold;
 }
 
 .card-subtitle{
-    font-size: 1.1em;
     font-style: italic;
 }
 .card-text{
-    font-size: 0.9em;
-    text-align: justify;
-    
+    text-align: left;
 }
 
 .card{
@@ -51,10 +47,35 @@
     transition-duration: 0.4s;
     background-color: rgba(233, 233, 233, 0.829);
 }
+
+.row-margin{
+    margin: 0;
+}
 /*-------------------------------------------------------------*/
 @media (min-width: 149px){
     .title-pro{
         font-size: 2em;
+    }
+    .div2-pro{
+        width: 100%;
+        margin: auto;
+    }
+    .Card-container{
+        margin-top: 1em;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    .card-title{
+        font-size: 1.25em;
+    }
+    
+    .card-subtitle{
+        font-size: 1em;
+    }
+    .card-text{
+        font-size: 0.8em;
     }
 }
 
@@ -62,10 +83,46 @@
     .title-pro{
         font-size: 2.6em;
     }
+    .div2-pro{
+        width: 85%;
+        margin: auto;
+    }
+    .Card-container{
+        margin: 1.25em;
+    }
+    
+    .card-title{
+        font-size: 1.5em;
+    }
+    
+    .card-subtitle{
+        font-size: 1.1em;
+    }
+    .card-text{
+        font-size: 0.9em;
+    }
 }
 
-@media (min-width: 800px){
+@media (min-width: 850px){
     .title-pro{
         font-size: 3em;
+    }
+    .div2-pro{
+        width: 100%;
+        margin-left: 4%;
+    }
+    .Card-container{
+        margin: 1.25em;
+    }
+    
+    .card-title{
+        font-size: 1.5em;
+    }
+    
+    .card-subtitle{
+        font-size: 1.1em;
+    }
+    .card-text{
+        font-size: 0.9em;
     }
 }
