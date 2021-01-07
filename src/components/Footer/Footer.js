@@ -27,9 +27,8 @@ class Footer extends Component {
                                 </li>
                                 <li className='footer-links-in'>
                                     <span className='inline-span'>
-                                        <a className='email'>
+                                        <a href="mailto:sevilla.diego8@gmail.com" className='email'>
                                             <i className="fas fa-at" style={{color: "whitesmoke", fontSize: "48px", opacity: "0.8"}}></i>
-                                            sevilla.diego8@gmail.com  
                                         </a>   
                                     </span> 
                                 </li>

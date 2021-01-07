@@ -27,7 +27,7 @@ const hobbies = (props) =>{
                 bgImage={crowd}
                 bgImageAlt="crowd"
                 strength={100}>
-                <div style={{height: '20em'}}></div>
+                <div className='crowdHobbies'></div>
             </Parallax>
         </Parallax>
     )

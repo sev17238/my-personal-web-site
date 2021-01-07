@@ -27,7 +27,10 @@
         font-size: 2em;;
     }
     .div1-hobbies{
-        height: 22em;
+        height: 20em;
+    }
+    .crowdHobbies{
+        height: 10em;
     }
 }
 
@@ -38,6 +41,9 @@
     .div1-hobbies{
         height: 27em;
     }
+    .crowdHobbies{
+        height: 13em;
+    }
 }
 
 @media (min-width: 800px){
@@ -46,5 +52,8 @@
     }
     .div1-hobbies{
         height: 35em;
+    }
+    .crowdHobbies{
+        height: 20em;
     }
 }
