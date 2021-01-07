@@ -42,7 +42,7 @@ class Layout extends Component{
         this.setState({showSideDrawer: false})
         /*window.scrollTo(0,-150);*/
         setTimeout(() => {
-            window.scrollBy(0,-55)
+            window.scrollBy(0,-55);
         }, 20);
     }
 

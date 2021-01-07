@@ -6,7 +6,7 @@ import Zoom from 'react-reveal/Zoom';
 import instruments from '../../images/piano-guitar_purple.jpg';
 import crowd from '../../images/crowd2.png';
 
-const hobbies = (props) =>{
+const hobbies = () =>{
     return(
         <section className="Hobbies">
             <Parallax
