@@ -1,27 +1,28 @@
+
 .NavigationItem{
-    margin: 10px 0; /*10 pixels for top and bottom */
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
+    overflow-x: hidden;
 }
 
 .NavigationItem a{
-    color: #40A4C8;
-    text-decoration: none;
-    height: 100%;
-    box-sizing: border-box; /*to make sure the height includes the border and the padding*/
+    color: rgba(152, 179, 178, 1);
+    padding: 16px ;
     display: block; /*so the height has an effect*/
+    overflow: hidden;
+    border-bottom: 4px solid transparent; /*will be invisible but will become important once we hover over it*/
     width: 100%;
+    padding-left: 117px;
+    padding-right: 117px;
 }
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active{
-    color: #8F5C2C;
+    background-color: rgba(152, 179, 178, 1);
+    color: ghostwhite;
 }
 
 /*For desktop*/
-@media (min-width: 500px){
+@media (min-width: 800px){
     .NavigationItem{
         margin: 0;
         display: flex;
@@ -32,9 +33,8 @@
     
     .NavigationItem a{
         color: rgba(152, 179, 178, 1);
-        /*height: 100%;*/
         padding: 16px 25px;
-        overflow: hidden;
+        overflow-x: hidden;
         border-bottom: 4px solid transparent; /*will be invisible but will become important once we hover over it*/
         width: 100%;
     }
@@ -47,7 +47,6 @@
     .NavigationItem a:active,
     .NavigationItem a.active{
         background-color: rgba(152, 179, 178, 1);
-        /*border-bottom: 4px solid #40A4C8;*/
         color: ghostwhite;
     }
     
