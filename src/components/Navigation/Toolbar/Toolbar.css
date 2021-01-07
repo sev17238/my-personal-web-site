@@ -28,7 +28,8 @@
     align-items: center;
     height: 100%;
     flex-flow: column;
-    
+    font-family: 'Yellowtail', cursive;
+
 }
 
 .Toolbar_ul li{
@@ -36,7 +37,7 @@
     display: block;
     width: 100%;
     margin: 6px 0px 0px 0px;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: whitesmoke;
 }
 

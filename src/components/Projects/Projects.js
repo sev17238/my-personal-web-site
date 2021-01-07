@@ -129,7 +129,7 @@ class Projects extends Component {
         }
         return (
             <section>
-                <div id='projects' className='div1-pro'>
+                <div id='projects' className='Projects'>
                     <div className='innerDivProjects'>
                         <h3 className='title-pro'>Projects</h3>
                         {rowsToRender}

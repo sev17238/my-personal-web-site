@@ -40,7 +40,10 @@ class Layout extends Component{
 
     sideDrawerClosedHandler = () =>{
         this.setState({showSideDrawer: false})
-        window.scrollTo(500,0);
+        /*window.scrollTo(0,-150);*/
+        setTimeout(() => {
+            window.scrollBy(0,-55)
+        }, 20);
     }
 
     sideDrawerToggleHandler = () =>{ /*Always use prevState when setting state that depends on the oldState.*/

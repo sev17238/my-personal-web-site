@@ -1,5 +1,8 @@
 
 /*Hobbies ----------------------------------------------------------*/
+.Hobbies{
+    font-family: 'Krub', sans-serif;
+}
 .divv2-center-hobbies{
     position: absolute;
     bottom: 50%;
