@@ -28,7 +28,7 @@ class Container extends Component {
             <Aux>
                 <ViewIntro/>
                 <AboutMe width={this.state.screenWidth}/>
-                <Experiences/>
+                <Experiences width={this.state.screenWidth}/>
                 <Abilities/>
                 <Projects/>
                 <Hobbies/>

@@ -37,4 +37,27 @@
     margin: 1em;
     border-bottom: 1px solid rgb(180, 182, 168);
 }
+
+.div-line-exp{
+    border-bottom: solid 1px rgba(47, 45, 48, 1);
+    width: 20px;
+}
 /*-----------------------------------------------------------------*/
+
+@media (min-width: 149px){
+    
+}
+
+@media (min-width: 500px){
+    .image-exp{
+        width: 72px;
+        height: 72px;
+    }
+}
+
+@media (min-width: 800px){
+    .image-exp{
+        width: 128px;
+        height: 128px;
+    }
+}
