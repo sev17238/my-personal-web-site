@@ -18,6 +18,10 @@ class Container extends Component {
         screenWidth: null
     }
 
+    componentDidMount(){
+        this.calculeScreenWidth();
+    }
+
     calculeScreenWidth = () => {
         this.setState({screenWidth: window.innerWidth})
     }

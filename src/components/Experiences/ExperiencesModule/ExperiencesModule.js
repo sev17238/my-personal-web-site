@@ -28,7 +28,6 @@ class ExpModule extends Component {
     }
 
     render() {
-        console.log(this.props.width);
         let rowsToRender = (
             <div  className='div1-modexp'>
                 <Row className='row'>
