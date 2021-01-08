@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.upperPiano {
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+}
+
+.piano {
+  display: flex;
+  background-color: rgb(230, 227, 227);
+}
+
+.key {
+  height: calc(var(--width) * 3);
+  width: var(--width);
+  transition: transform 0.3s ease-out;
+  transition: 0.3s;
+}
+
+.white {
+  --width: 100px;
+  background-color: white;
+  box-shadow: 0px 11px 0px 0px rgb(230, 227, 227);
+  border-left: 1px solid rgb(230, 227, 227);
+  border-radius: 0 0 2.5% 5%;
+  margin-bottom: 2.5%;
+}
+/*
+.white:hover {
+  --width: 101px;
+}*/
+/*
+.white.active {
+  background-color: #ccc;
+}*/
+
+.black {
+  --width: 60px;
+  background-color: rgb(18, 18, 19);
+  margin-left: calc(var(--width) / -2);
+  margin-right: calc(var(--width) / -2);
+  z-index: 2;
+  border-radius: 0 0 5% 5%;
+  box-shadow: 0px 4px 0px 4px rgb(13, 13, 14);
+}
+
+.black:hover {
+  /*border-radius: 0 0 2.5% 3.5%;*/
+  /*box-shadow: 0px 10px 0px 1px rgb(230, 227, 227);*/
+  --width: 61px;
+}
+
+
+.black.active {
+  background-color: #333;
+}
+
+@media (min-width: 1092px){
+  .piano {
+    margin: 10%;
+  }
+}
