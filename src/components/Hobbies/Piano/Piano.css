@@ -24,7 +24,6 @@
 }
 
 .white {
-  --width: 100px;
   background-color: white;
   box-shadow: 0px 11px 0px 0px rgb(230, 227, 227);
   border-left: 1px solid rgb(230, 227, 227);
@@ -41,7 +40,6 @@
 }*/
 
 .black {
-  --width: 60px;
   background-color: rgb(18, 18, 19);
   margin-left: calc(var(--width) / -2);
   margin-right: calc(var(--width) / -2);
@@ -61,8 +59,39 @@
   background-color: #333;
 }
 
-@media (min-width: 1092px){
+@media (min-width: 149px){
+  .black {
+    --width: 42px;
+  }
+  .black:hover {
+    --width: 43px;
+  }
+  .white {
+    --width: 80px;
+  }
+}
+
+
+@media (min-width: 500px){
+  .black {
+    --width: 55px;
+  }
+  .black:hover {
+    --width: 56px;
+  }
+  .white {
+    --width: 90px;
+  }
+}
+
+@media (min-width: 800px){
   .piano {
     margin: 10%;
+  }
+}
+
+@media (min-width: 1092px){
+  .piano {
+    margin: 5% 15% 10% 15%;
   }
 }
