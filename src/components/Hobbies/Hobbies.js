@@ -31,11 +31,11 @@ const hobbies = () =>{
                                     </p>
                                 </div>
                             </Col>
-                            <Col xs="2" >
+                            <Col xs="2" className={classes.noPadding}>
                             </Col>
                         </Row>
                         <Row >
-                            <Col >
+                            <Col className={classes.noPadding}>
                                 <Piano/>
                             </Col>
                         </Row>
@@ -56,7 +56,7 @@ const hobbies = () =>{
                                     </p>
                                 </div>
                             </Col>
-                            <Col xs="2" >
+                            <Col xs="2" className={classes.noPadding}>
                             </Col>
                         </Row>
                         <Row >

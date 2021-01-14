@@ -88,22 +88,7 @@
   -webkit-animation: cloudd 50s infinite linear;
   animation: cloudd 50s infinite linear;
 }
-@-webkit-keyframes cloudd {
-  0% {
-    left: -100px;
-  }
-  100% {
-    left: 1350px;
-  }
-}
-@keyframes cloudd {
-  0% {
-    left: -100px;
-  }
-  100% {
-    left: 1350px;
-  }
-}
+
 .cloudd:before {
   content: "";
   left: 50px;
@@ -130,22 +115,7 @@
   -webkit-animation: cloudd 50s infinite linear;
   animation: cloudd 50s infinite linear;
 }
-@-webkit-keyframes cloudd2 {
-    0% {
-      right: -100px;
-    }
-    100% {
-      right: 1350px;
-    }
-  }
-  @keyframes cloudd2 {
-    0% {
-      right: -100px;
-    }
-    100% {
-      right: 1350px;
-    }
-  }
+
 .cloudd2:before {
   content: "";
   left: 15px;
@@ -177,6 +147,40 @@
         width: 70%;
         left: 10%;
     }
+
+    @-webkit-keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 499px;
+      }
+    }
+    @keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 400px;
+      }
+    }
+
+    @-webkit-keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 400px;
+      }
+    }
+    @keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 400px;
+      }
+    }
 }
 
 @media (min-width: 500px){
@@ -184,11 +188,79 @@
         width: 40%;
         left: 27%;
     }
+
+    @-webkit-keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 1200px;
+      }
+    }
+    @keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 1200px;
+      }
+    }
+
+    @-webkit-keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 1200px;
+      }
+    }
+    @keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 1200px;
+      }
+    }
 }
 
 @media (min-width: 800px){
     .div-mountain-title {
         width: 40%;
         left: 30%;
+    }
+
+    @-webkit-keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 1350px;
+      }
+    }
+    @keyframes cloudd {
+      0% {
+        left: -100px;
+      }
+      100% {
+        left: 1350px;
+      }
+    }
+
+    @-webkit-keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 1350px;
+      }
+    }
+    @keyframes cloudd2 {
+      0% {
+        right: -100px;
+      }
+      100% {
+        right: 1350px;
+      }
     }
 }

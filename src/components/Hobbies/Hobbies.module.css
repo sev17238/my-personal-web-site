@@ -4,6 +4,7 @@
     width: 100%;
     background-color: rgb(25, 24, 26);
     align-items: left;
+    overflow: hidden;
 }
 
 .Hobbies{
@@ -28,7 +29,6 @@
     padding-top: 0.5em;
     color: whitesmoke;
     border-bottom: 1px solid rgb(44, 43, 46);
-    font-size: 3em;
 }
 
 .pHobbiesDescription{
@@ -60,6 +60,9 @@
     .Hobbies{
         width: 100%;
     }
+    .titleHobbies{
+        font-size: 2em;
+    }
 }
 
 @media(min-width: 650px){
@@ -76,12 +79,18 @@
     .Hobbies{
         width: 65%;
     }
+    .titleHobbies{
+        font-size: 2.6em;
+    }
 }
 
 @media(min-width: 850px){
 
     .Hobbies{
         width: 65%;
+    }
+    .titleHobbies{
+        font-size: 3em;
     }
 }
 
@@ -95,6 +104,9 @@
     }
     .Hobbies{
         width: 65%;
+    }
+    .titleHobbies{
+        font-size: 3em;
     }
 
 }
