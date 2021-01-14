@@ -3,6 +3,7 @@
 .ViewIntroSection{
     /*height: 100vh;*/
     position: relative;
+    font-family: 'Capriola', sans-serif;
 }
 
 .test{
@@ -13,7 +14,8 @@
 /* ----------------------------------------------------------------*/
 @media (min-width: 149px) and (min-height: 400px) {
     .divv1-cloud{
-        height: 35em;
+        /*height: 35em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
@@ -32,7 +34,7 @@
         top: 38%;
         transform: translateY(2px);
         height: 14%;
-        width: 24%;
+        width: 26%;
         transition-duration: 0.5s;
         cursor: pointer;
     }
@@ -62,7 +64,7 @@
     .Name{
         font-size: 1em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin: 5%;
         margin-top: 0;
     }
@@ -70,7 +72,7 @@
     .NameIntro{
         font-size: 0.60em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin-bottom: 0;
         margin-top:15%;
     }
@@ -78,7 +80,8 @@
 
 @media (min-width: 500px) and (min-height: 400px) {
     .divv1-cloud{
-        height: 37.5em;
+        /*height: 37.5em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
@@ -94,7 +97,7 @@
     }
 
     .divv2-center-cloud:hover{
-        top: 37%;
+        top: 38%;
         transform: translateY(2px);
         height: 14%;
         width: 16%;
@@ -127,7 +130,7 @@
     .Name{
         font-size: 1.10em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin: 5%;
         margin-top: 0;
     }
@@ -135,15 +138,21 @@
     .NameIntro{
         font-size: 0.70em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin-bottom: 0;
         margin-top:15%;
     }
+
+    /*.ViewIntroSection{
+        height: 100vh;
+    }*/
+    
 }
 
 @media (min-width: 800px) and (min-height: 401px) {
     .divv1-cloud{
-        height: 41.7em;
+        /*height: 41.7em;*/
+        height: 100vh;
     }
 
     .divv2-center-cloud{
@@ -190,17 +199,17 @@
     }
 
     .Name{
-        font-size: 1.25em;
+        font-size: 1.35em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin: 5%;
         margin-top: 0;
     }
 
     .NameIntro{
-        font-size: 0.85em;
+        font-size: 0.95em;
         color: rgb(0, 52, 116);
-        font-weight: 900;
+        font-weight: 600;
         margin-bottom: 0;
         margin-top:10%;
     }

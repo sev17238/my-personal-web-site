@@ -1,9 +1,9 @@
 
 /*Hobbies ----------------------------------------------------------*/
-.div1-hobbies{
-    height: 35em;
+/*
+.Hobbies{
+    font-family: 'Krub', sans-serif;
 }
-
 .divv2-center-hobbies{
     position: absolute;
     bottom: 50%;
@@ -17,7 +17,6 @@
 }
 
 .p-hobbies{
-    font-size: 5em;
     color: whitesmoke;
     font-weight: bold;
     margin: 5%;
@@ -26,4 +25,39 @@
     text-shadow: 2px 2px 4px #000000;
 }
 
-/*//---------------------------------------------------------------*/
+/*---------------------------------------------------------------
+@media (min-width: 149px){
+    .p-hobbies{
+        font-size: 2em;;
+    }
+    .div1-hobbies{
+        height: 23em;
+    }
+    .crowdHobbies{
+        height: 10em;
+    }
+}
+
+@media (min-width: 500px){
+    .p-hobbies{
+        font-size: 3em;;
+    }
+    .div1-hobbies{
+        height: 27em;
+    }
+    .crowdHobbies{
+        height: 13em;
+    }
+}
+
+@media (min-width: 800px){
+    .p-hobbies{
+        font-size: 3.5em;;
+    }
+    .div1-hobbies{
+        height: 35em;
+    }
+    .crowdHobbies{
+        height: 20em;
+    }
+}*/

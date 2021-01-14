@@ -1,0 +1,112 @@
+.sectionHobbies{
+    /*height: 100vh;*/
+    position: relative;
+    width: 100%;
+    background-color: rgb(25, 24, 26);
+    align-items: left;
+    overflow: hidden;
+}
+
+.Hobbies{
+    margin: auto;
+    font-family: 'Krub', sans-serif;
+}
+/*
+.innerDivHobbies{
+    margin: auto;
+}*/
+
+.rowMarginHobbies{
+    padding: auto;
+}
+
+.titleHobbies{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    padding-bottom: 0.4em;
+    padding-top: 0.5em;
+    color: whitesmoke;
+    border-bottom: 1px solid rgb(44, 43, 46);
+}
+
+.pHobbiesDescription{
+    font-size: 1em;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10%;
+}
+
+/*This description is not visible. It is hided by the absolute container of the mountains*/
+.pHobbiesDescriptionVar{
+    font-size: 1em;
+    color:  #529dc2;
+    text-align: center;
+    z-index: 4;
+}
+
+@media(min-width: 149px){
+    .pHobbiesDescription{
+        padding-bottom: 20%;
+    }
+    .sectionHobbies{
+        padding-bottom: 10%;
+    }
+    .pHobbiesDescriptionVar{
+        padding-top: 70%;
+        padding-bottom: 70%;
+    }
+    .Hobbies{
+        width: 100%;
+    }
+    .titleHobbies{
+        font-size: 2em;
+    }
+}
+
+@media(min-width: 650px){
+    .pHobbiesDescription{
+        padding-bottom: 5%;
+    }
+    .sectionHobbies{
+        padding-bottom: 10%;
+    }
+    .pHobbiesDescriptionVar{
+        padding-top: 40%;
+        padding-bottom: 70%;
+    }
+    .Hobbies{
+        width: 65%;
+    }
+    .titleHobbies{
+        font-size: 2.6em;
+    }
+}
+
+@media(min-width: 850px){
+
+    .Hobbies{
+        width: 65%;
+    }
+    .titleHobbies{
+        font-size: 3em;
+    }
+}
+
+@media(min-width: 1092px){
+    .sectionHobbies{
+        padding-bottom: 0;
+    }
+    .pHobbiesDescriptionVar{
+        padding-top: 15%;
+        padding-bottom: 70%;
+    }
+    .Hobbies{
+        width: 65%;
+    }
+    .titleHobbies{
+        font-size: 3em;
+    }
+
+}

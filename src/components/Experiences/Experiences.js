@@ -1,7 +1,7 @@
 /*
     ./src/components/main/Experiences.jsx
 */
-import React from 'react';
+import React,{Component} from 'react';
 import './Experiences.css';
 import ModExp from './ExperiencesModule/ExperiencesModule';
 import Flip from 'react-reveal/Flip';
@@ -14,12 +14,11 @@ import music from '../../images/Icons/music.png';
 import circuit from '../../images/Icons/circuit.png';
 import cloud from '../../images/Icons/cloud.png';
 
-
-export default class Experiences extends React.Component {
+class Experiences extends Component {
 
     render() {
         return (
-            <section>
+            <section className='section-Experiences'> 
                 <div id='experiences' className='Experiences'>
                     <div className='innerDivExperiences'>
                         <h3 className='titleExperiences'>Experiences</h3>
@@ -27,18 +26,20 @@ export default class Experiences extends React.Component {
                             <h4 className='edu-exp'>Education</h4>
                             <Flip bottom>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='Colegio Capouilliez' 
                                     Date='Jan 2003 - Oct 2013' 
                                     Acknowledgment='Primary and Middle School Studies' 
                                     Description="I spent almost 10 years in this lovely school when I was a child. 
                                     I remember I used to love Natural Science classes about the human body and cells. 
                                     I will always remember going to the musical appreciation class
-                                    where my teacher played funny piano songs for all of her students."
+                                    where my teacher played funny piano songs for all the class."
                                     src={school}>
                                 </ModExp>
                             </Flip>    
                             <Flip bottom>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='Instituto Tecnico Laboral Kinal' 
                                     Date='Jan 2014 - Nov 2016' 
                                     Acknowledgment='Industrial Electronics Technician' 
@@ -51,6 +52,7 @@ export default class Experiences extends React.Component {
                             </Flip>   
                             <Flip bottom>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='Universidad del Valle de Guatemala' 
                                     Date='Jan 2017 - Nov 2022 (expected graduation date)' 
                                     Acknowledgment='Computer Science and Information Technologies Engineer' 
@@ -63,6 +65,7 @@ export default class Experiences extends React.Component {
                             </Flip>    
                             <Flip bottom>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='Conservatorio Nacional de Música (Guatemala)' 
                                     Date='Jan 2013 - Nov 2016' 
                                     Acknowledgment='Elementary musical training with a specialization in piano' 
@@ -75,6 +78,7 @@ export default class Experiences extends React.Component {
                             <h4 className='edu-exp'>Work Experience</h4>
                             <LightSpeed left>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='DACSA' 
                                     Date='Jun 2016 - Nov 2016' 
                                     Acknowledgment='Full Time - Electronic Technician' 
@@ -87,6 +91,7 @@ export default class Experiences extends React.Component {
                             </LightSpeed> 
                             <LightSpeed left>
                                 <ModExp 
+                                    width={this.props.width}
                                     Name='CELERA' 
                                     Date='Jul 2020 - Nov 2020' 
                                     Acknowledgment='Part Time - Cloud Engineer' 
@@ -104,3 +109,5 @@ export default class Experiences extends React.Component {
         );
     }
 }
+
+export default Experiences;

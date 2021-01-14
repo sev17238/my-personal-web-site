@@ -17,10 +17,11 @@
 .DS_div p{
     position: absolute;
     width:100%;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     top:8px;
-    font-weight: 600
+    font-weight: 500;
+    font-family: 'Damion', cursive;
 }
 
 .DS_div a{

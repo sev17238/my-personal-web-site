@@ -1,17 +1,13 @@
-.div1-pro{
+.Projects{
     width: 100%;
-    /*background-color: rgba(85, 53, 85, 0.85);*/
-    /*background-color:  rgba(70, 83, 98, 0.75);*/
     background-color: rgba(222, 224, 208, 1); 
+    font-family: 'Krub', sans-serif;
 }
 
 .innerDivProjects{
     width: 75%;
     margin: auto;
-}
-
-.div2-pro{
-    padding-bottom: 2.5%; 
+    padding-bottom: 1.5em;
 }
 
 .div-title-pro{
@@ -20,32 +16,28 @@
 
 .title-pro{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
     padding-bottom: 0.4em;
     padding-top: 0.5em;
-    /*color: rgba(222, 224, 208, 1);*/
     color: rgba(1, 25, 54, 1);
-    /*border-bottom: 1px solid rgba(56, 35, 56,0.85); */
-    /*border-bottom: 1px solid rgba(152, 179, 178, 1);*/
     border-bottom: 1px solid rgb(180, 182, 168); 
 }
 
+.Card-container{
+    margin: 1.25em;
+}
+
 .card-title{
-    font-size: 1.5em;
     font-weight: bold;
 }
 
 .card-subtitle{
-    font-size: 1.1em;
     font-style: italic;
 }
 .card-text{
-    font-size: 0.9em;
-    text-align: justify;
-    
+    text-align: left;
 }
 
 .card{
@@ -56,4 +48,83 @@
     transform: translateY(-5px);
     transition-duration: 0.4s;
     background-color: rgba(233, 233, 233, 0.829);
+}
+
+.row-margin{
+    margin: 0;
+}
+/*-------------------------------------------------------------*/
+@media (min-width: 149px){
+    .title-pro{
+        font-size: 2em;
+    }
+    .div2-pro{
+        width: 100%;
+        margin: auto;
+    }
+    .Card-container{
+        margin-top: 1em;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    .card-title{
+        font-size: 1.25em;
+    }
+    
+    .card-subtitle{
+        font-size: 1em;
+    }
+    .card-text{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 500px){
+    .title-pro{
+        font-size: 2.6em;
+    }
+    .div2-pro{
+        width: 85%;
+        margin: auto;
+    }
+    .Card-container{
+        margin: 1.25em;
+    }
+    
+    .card-title{
+        font-size: 1.5em;
+    }
+    
+    .card-subtitle{
+        font-size: 1.1em;
+    }
+    .card-text{
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 850px){
+    .title-pro{
+        font-size: 3em;
+    }
+    .div2-pro{
+        width: 100%;
+        margin-left: 4%;
+    }
+    .Card-container{
+        margin: 1.25em;
+    }
+    
+    .card-title{
+        font-size: 1.5em;
+    }
+    
+    .card-subtitle{
+        font-size: 1.1em;
+    }
+    .card-text{
+        font-size: 0.9em;
+    }
 }

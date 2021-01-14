@@ -6,6 +6,7 @@
     background-position:center bottom;
     background-size:cover;
     background-color: rgba(47, 45, 48, 1);
+    font-family: 'Krub', sans-serif;
 }
 
 .innerDivFooter{
@@ -60,7 +61,6 @@
 
 .contact-title{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
@@ -94,29 +94,23 @@
 }
 
 /*---------------------------------------------------*/
-.div-quote-ft{
-    width: 100%;
+@media (min-width: 149px){
+    .contact-title{
+        font-size: 2em;
+    }
+
 }
 
-.div-quote-in-ft{
-    padding: 2%;
+@media (min-width: 500px){
+    .contact-title{
+        font-size: 2.6em;
+    }
+
 }
 
-.p-quote-ft{
-    font-size: 2em;
-    color: rgba(222, 224, 208, 1);
-    font-style: italic;
-    text-align: center;
-    transition-duration: 0.5s;
-}
-.p-quote-ft:hover{
-    font-size: 2.1em;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
+@media (min-width: 800px){
+    .contact-title{
+        font-size: 3em;
+    }
 
-.p-quote-ref-ft{
-    font-size: 1.5em;
-    color: rgba(222, 224, 208, 1);
-    text-align: center;
 }

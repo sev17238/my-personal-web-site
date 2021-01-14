@@ -7,7 +7,6 @@ const logo = () =>{
             <p><a href="#">DS</a></p>
         </div>
     )
-    
 }
 
 export default logo;

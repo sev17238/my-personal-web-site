@@ -1,7 +1,6 @@
 
 .p-skill{
-    font-size: 1em;
-    text-align: justify;
+    text-align: left;
     width: 100%;
     margin:0;
     padding:0;
@@ -30,4 +29,35 @@
     background-color: rgba(133, 163, 170, 0.89);
     transition-duration: 0.3s;
     transform: translateY(-3px);
+}
+
+/*------------------*/
+
+@media (min-width: 149px){
+    .p-skill{
+        font-size: 0.75em;
+    }
+    .iconSize{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 500px){
+    .p-skill{
+        font-size: 1em;
+    }
+    .iconSize{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 800px){
+    .p-skill{
+        font-size: 1em;
+    }
+    
+    .iconSize{
+        font-size: 24px;
+    }
+
 }

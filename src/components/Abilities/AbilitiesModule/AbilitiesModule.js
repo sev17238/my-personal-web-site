@@ -17,6 +17,9 @@ export default class AbilitiesModule extends React.Component {
     }
 
     render() {
+
+
+
         return (
             <li className='li-padd'>
                 <Roll left>
@@ -25,22 +28,22 @@ export default class AbilitiesModule extends React.Component {
                     </span>
                     <span className='span-float'>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color1, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color1, opacity: "0.8"}}></i>
                         </span>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color2, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color2,  opacity: "0.8"}}></i>
                         </span>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color3, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color3,  opacity: "0.8"}}></i>
                         </span>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color4, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color4,  opacity: "0.8"}}></i>
                         </span>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color5, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color5,  opacity: "0.8"}}></i>
                         </span>
                         <span>
-                            <i className="fa fa-rocket" style={{color: this.color6, fontSize: "24px", opacity: "0.8"}}></i>
+                            <i className="fa fa-rocket iconSize" style={{color: this.color6, opacity: "0.8"}}></i>
                         </span>
                     </span>
                 </Roll>

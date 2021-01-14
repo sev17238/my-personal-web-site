@@ -1,6 +1,7 @@
 .Abilities{
     width: 100%;
     background-color: rgba(147, 183, 190, 1);
+    font-family: 'Krub', sans-serif;
 }
 
 .innerDivAbilities{
@@ -15,7 +16,6 @@
 
 .title-ab{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
@@ -35,22 +35,13 @@
     padding: 0px;
 }
 
-.row-ab{
-    padding-left: 10%;
-}
-
 .subtitle-ab{
     width: 100%;
-    font-size: 2em;
     font-weight: bold;
     text-align: left;
     padding: 1em;
     padding-bottom: 0.4em;
     color: white;
-}
-
-.col-ab{
-    /*padding-right: 10%;*/
 }
 
 .div-line-ab{
@@ -61,3 +52,45 @@
 /*abilities module--------------------------------------------------------
 
 // ------------------------------------------------------------------------*/
+@media (min-width: 149px){
+    .title-ab{
+        font-size: 2em;
+    }
+    .subtitle-ab{
+        font-size: 1.6em;
+    }
+    .col-ab{
+        /*padding-right: 10%;*/
+        padding: 0;
+    }
+    .row-ab{
+        padding: 0;
+    }
+    
+}
+
+@media (min-width: 500px){
+    .title-ab{
+        font-size: 2.6em;
+    }
+    .subtitle-ab{
+        font-size: 1.7em;
+    }
+    .row-ab{
+        padding-left: 10%;
+    }
+    
+}
+
+@media (min-width: 800px){
+    .title-ab{
+        font-size: 3em;
+    }
+    .subtitle-ab{
+        font-size: 2em;
+    }
+    .row-ab{
+        padding-left: 10%;
+    }
+    
+}

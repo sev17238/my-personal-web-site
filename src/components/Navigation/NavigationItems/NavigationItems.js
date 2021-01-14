@@ -4,14 +4,14 @@ import NavigationItem from './NavigationItem/NavigationItem';
 /**
  * Functional component that contains the navigation items to go to diferent pages in the burger app.
  */
-const navigationItems = () =>(
+const navigationItems = (props) =>(
     <ul className={classes.NavigationItems}>
-        <NavigationItem tag="about_me">Profile</NavigationItem>
-        <NavigationItem tag="experiences">Experiences</NavigationItem>
-        <NavigationItem tag="abilities">Abilities</NavigationItem>
-        <NavigationItem tag="projects">Projects</NavigationItem>
-        <NavigationItem tag="hobbies">Hobbies</NavigationItem>
-        <NavigationItem tag="contact">Contact</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="about_me">Profile</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="experiences">Experiences</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="abilities">Abilities</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="projects">Projects</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="hobbies">Hobbies</NavigationItem>
+        <NavigationItem clicked={props.clickedItem} tag="contact">Contact</NavigationItem>
     </ul>
 );
 

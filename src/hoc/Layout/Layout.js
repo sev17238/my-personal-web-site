@@ -7,7 +7,7 @@ import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component{
-    /*constructor(props){   
+    /*constructor(props){
         super(props);
         this.state = {
             showSideDrawer: false,
@@ -40,6 +40,10 @@ class Layout extends Component{
 
     sideDrawerClosedHandler = () =>{
         this.setState({showSideDrawer: false})
+        /*window.scrollTo(0,-150);*/
+        setTimeout(() => {
+            window.scrollBy(0,-55);
+        }, 20);
     }
 
     sideDrawerToggleHandler = () =>{ /*Always use prevState when setting state that depends on the oldState.*/

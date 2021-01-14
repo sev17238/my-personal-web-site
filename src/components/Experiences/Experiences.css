@@ -1,8 +1,14 @@
-
+.section-Experiences{
+    /*height: 100vh;*/
+    position: relative;
+}
 
 .Experiences{
     width: 100%;
+    height: auto;
     background-color: rgba(222, 224, 208, 1);
+    align-items: center;
+    font-family: 'Krub', sans-serif;
 }
 
 .innerDivExperiences{
@@ -10,19 +16,8 @@
     margin: auto;
 }
 
-.div2-exp{
-    width: 100%;
-    padding-bottom: 2.5%; 
-    /*background-color: rgba(208, 204, 208, 1);*/
-}
-
-.div-titleExperiences{
-    align-content: center;
-}
-
 .titleExperiences{
     width: 100%;
-    font-size: 3em;
     font-weight: bold;
     text-align: center;
     padding: 1em;
@@ -34,10 +29,49 @@
 
 .edu-exp{
     width: 100%;
-    font-size: 2em;
     font-weight: bold;
     text-align: left;
     padding: 1em;
     padding-bottom: 0.4em;
     color: rgb(2, 49, 107);
+}
+
+@media (min-width: 149px){
+    .titleExperiences{
+        font-size: 1.8em;
+    }
+    .div2-exp{
+        width: 100%;
+        padding-bottom: 2.5%; 
+    }
+    .edu-exp{
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 500px){
+    .titleExperiences{
+        font-size: 2.6em;
+    }
+    .div2-exp{
+        width: 100%;
+        padding-bottom: 2.5%; 
+    }
+    .edu-exp{
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 800px){
+    .titleExperiences{
+        font-size: 3em;
+    }
+    .div2-exp{
+        width: 100%;
+        padding-bottom: 2.5%; 
+        margin-left: 5%;
+    }
+    .edu-exp{
+        font-size: 2em;
+    }
 }

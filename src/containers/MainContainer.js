@@ -18,6 +18,10 @@ class Container extends Component {
         screenWidth: null
     }
 
+    componentDidMount(){
+        this.calculeScreenWidth();
+    }
+
     calculeScreenWidth = () => {
         this.setState({screenWidth: window.innerWidth})
     }
@@ -28,9 +32,9 @@ class Container extends Component {
             <Aux>
                 <ViewIntro/>
                 <AboutMe width={this.state.screenWidth}/>
-                <Experiences/>
-                <Abilities/>
-                <Projects/>
+                <Experiences width={this.state.screenWidth}/>
+                <Abilities width={this.state.screenWidth}/>
+                <Projects width={this.state.screenWidth}/>
                 <Hobbies/>
             </Aux>
         );
