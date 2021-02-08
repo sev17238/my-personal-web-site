@@ -10,7 +10,7 @@ import {
   } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 
-import ukron from '../../images/ukron.PNG'
+import onepunch from '../../images/onepunch-ee.png'
 import undercooked from '../../images/UnderCooked_.png'
 import ibanez from '../../images/ibanez.PNG'
 
@@ -54,14 +54,16 @@ const projects = (props) => {
                 <Col xs="5" className='Fst-col'>
                     <Fade>
                         <Card>
-                            <CardImg top width="100%" src={ukron} alt="Card image cap" />
+                            <CardImg top width="100%" src={onepunch} alt="Card image cap" />
                             <CardBody>
-                            <CardTitle>Ukron</CardTitle>
-                            <CardSubtitle>The videogame</CardSubtitle>
-                            <CardText>This videogame was part of Advanced Videogame Programming course. Ukron
-                                is an indi game where you can shoot enemies, take wepons and much more.
+                            <CardTitle>One Punch Memory</CardTitle>
+                            <CardSubtitle>The Card Game</CardSubtitle>
+                            <CardText>
+                                This project was part of Web Systems and Technologies course in Universidad del Valle.
+                                Have fun with this card game made with react.js featuring the most popular one punch 
+                                man characters.
                             </CardText>
-                            <Button href='https://diego-sevilla.itch.io/ukron'>See Project</Button>
+                            <Button href='https://github.com/sev17238/MemoryGame_ONEPUNCHMAN'>See Project</Button>
                             </CardBody>
                         </Card> 
                     </Fade>
@@ -110,14 +112,16 @@ const projects = (props) => {
                     <Col xs="12" >
                         <Fade>
                             <Card className='Card-container'>
-                                <CardImg top width="100%" src={ukron} alt="Card image cap" />
+                                <CardImg top width="100%" src={onepunch} alt="Card image cap" />
                                 <CardBody>
-                                <CardTitle>Ukron</CardTitle>
+                                <CardTitle>onepunch</CardTitle>
                                 <CardSubtitle>The videogame</CardSubtitle>
-                                <CardText>This videogame was part of Advanced Videogame Programming course. Ukron
-                                    is an indi game where you can shoot enemies, take wepons and much more.
+                                <CardText>
+                                    This project was part of Web Systems and Technologies course in Universidad del Valle.
+                                    Have fun with this card game made with react.js featuring the most popular one punch 
+                                    man characters.
                                 </CardText>
-                                <Button href='https://diego-sevilla.itch.io/ukron'>See Project</Button>
+                                <Button href='https://github.com/sev17238/MemoryGame_ONEPUNCHMAN'>See Project</Button>
                                 </CardBody>
                             </Card> 
                         </Fade>

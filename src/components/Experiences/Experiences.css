@@ -6,6 +6,10 @@
 .Experiences{
     width: 100%;
     height: auto;
+    background-image: url(/src/images/Books3-e.jpg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size:cover;
     background-color: rgba(222, 224, 208, 1);
     align-items: center;
     font-family: 'Krub', sans-serif;

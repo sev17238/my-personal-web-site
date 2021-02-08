@@ -1,5 +1,9 @@
 .Abilities{
     width: 100%;
+    background-image: url(/src/images/forrest-ee.jpg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size:cover;
     background-color: rgba(147, 183, 190, 1);
     font-family: 'Krub', sans-serif;
 }

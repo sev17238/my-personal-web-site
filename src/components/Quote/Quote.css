@@ -3,8 +3,8 @@
 }
 
 .div-quote-background{
-    background-color: rgb(25, 24, 26);
-    border-top: 3px dashed rgba(47, 45, 48, 0.85);
+    /*background-color: rgb(25, 24, 26);*/
+    border-top: 3px dashed rgba(47, 45, 48, 0.50);
 }
 
 .div-quote-in{

@@ -1,5 +1,9 @@
 .Projects{
     width: 100%;
+    background-image: url(/src/images/computer-hands-e.jpg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size:cover;
     background-color: rgba(222, 224, 208, 1); 
     font-family: 'Krub', sans-serif;
 }

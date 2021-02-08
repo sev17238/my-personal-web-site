@@ -2,7 +2,12 @@
     /*height: 100vh;*/
     position: relative;
     width: 100%;
-    background-color: rgb(25, 24, 26);
+    background-image: url(/src/images/volcanic-sand-2d.jpg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    background-size:cover;
+    background-color: rgba(25, 24, 26,1);
+    
 }
 
 .AboutMe{
@@ -57,7 +62,7 @@
 .image-AboutMe{
     width: 90%;
     border-radius: 100%;
-    border: 10px solid rgba(47, 45, 48, 0.85);
+    border: 10px solid rgba(47, 45, 48, 0.50);
 }
 
 @media (min-width: 149px) and (min-height: 400px) {
