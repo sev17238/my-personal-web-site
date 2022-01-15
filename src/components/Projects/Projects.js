@@ -12,7 +12,7 @@ import Fade from 'react-reveal/Fade';
 
 import onepunch from '../../images/onepunch-ee.png'
 import undercooked from '../../images/UnderCooked_.png'
-import ibanez from '../../images/ibanez.PNG'
+import piano from '../../images/piano.PNG'
 
 const projects = (props) => {
 
@@ -37,14 +37,14 @@ const projects = (props) => {
                 <Col xs="5" className='Snd-col'>
                     <Fade>
                         <Card>
-                            <CardImg top width="100%" src={ibanez} alt="Card image cap" />
+                            <CardImg top width="100%" src={piano} alt="Card image cap" />
                             <CardBody>
-                            <CardTitle>Ibanez Guitars</CardTitle>
-                            <CardSubtitle>Ibanez Guitars Website Clone</CardSubtitle>
-                            <CardText>This project was part of Web Systems and Technologies course in Universidad del Valle.
-                                The goal was to copy the style of a website.
+                            <CardTitle>Rhythm, Chords and Music Generator</CardTitle>
+                            <CardSubtitle>Computational Music Project</CardSubtitle>
+                            <CardText>This project was part of Computational Music course in Universidad del Valle.
+                                The goal was to create a seudo-random music generator aplying music theory in the process.
                             </CardText>
-                            <Button href='https://github.com/sev17238/Project1_WebPage'>See Project</Button>
+                            <Button href='https://diego-sevilla.itch.io/rythm-chords-and-melodies-generator'>See Project</Button>
                             </CardBody>
                         </Card>
                     </Fade>
@@ -95,12 +95,12 @@ const projects = (props) => {
                     <Col xs="12" >
                         <Fade>
                             <Card className='Card-container'>
-                                <CardImg top width="100%" src={ibanez} alt="Card image cap" />
+                                <CardImg top width="100%" src={piano} alt="Card image cap" />
                                 <CardBody>
-                                <CardTitle>Ibanez Guitars</CardTitle>
-                                <CardSubtitle>Ibanez Guitars Website Clone</CardSubtitle>
-                                <CardText>This project was part of Web Systems and Technologies course in Universidad del Valle.
-                                    The goal was to copy the style of a website.
+                                <CardTitle>Rhythm, Chords and Music Generator</CardTitle>
+                                <CardSubtitle>Computational Music Project</CardSubtitle>
+                                <CardText>This project was part of Computational Music course in Universidad del Valle.
+                                    The goal was to create a seudo-random music generator aplying music theory in the process.
                                 </CardText>
                                 <Button href='https://github.com/sev17238/Project1_WebPage'>See Project</Button>
                                 </CardBody>

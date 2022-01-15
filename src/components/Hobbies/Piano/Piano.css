@@ -13,7 +13,7 @@
 
 .piano {
   display: flex;
-  background-color: rgb(230, 227, 227);
+  /*background-color: rgb(230, 227, 227);*/
 }
 
 .key {
@@ -69,6 +69,10 @@
   .white {
     --width: 80px;
   }
+
+  .white:hover {
+    --width: 81px;
+  }
 }
 
 
@@ -82,16 +86,32 @@
   .white {
     --width: 90px;
   }
+  .white:hover {
+    --width: 91px;
+  }
 }
 
 @media (min-width: 800px){
   .piano {
     margin: 10%;
   }
+  
 }
 
 @media (min-width: 1092px){
   .piano {
-    margin: 5% 15% 10% 15%;
+    margin: 5% 15% 10% 20%;
+  }
+  .black {
+    --width: 75px;
+  }
+  .black:hover {
+    --width: 77px;
+  }
+  .white {
+    --width: 130px;
+  }
+  .white:hover {
+    --width: 131px;
   }
 }

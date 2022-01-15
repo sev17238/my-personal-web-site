@@ -13,6 +13,7 @@ import code from '../../images/Icons/code.png';
 import music from '../../images/Icons/music.png';
 import circuit from '../../images/Icons/circuit.png';
 import cloud from '../../images/Icons/cloud.png';
+import pacifiko from '../../images/Icons/pacifiko.png'
 
 class Experiences extends Component {
 
@@ -100,6 +101,22 @@ class Experiences extends Component {
                                     of centralize AWS Services on a testing web site and I also spent time interacting with 
                                     some AWS Services such as lambda, S3, EC2, IAM and more."
                                     src={cloud}>
+                                </ModExp>
+                            </LightSpeed>
+                            <LightSpeed left>
+                                <ModExp 
+                                    width={this.props.width}
+                                    Name='Pacifiko.com' 
+                                    Date='Feb 2021 - Today' 
+                                    Acknowledgment='Part Time - Frontend and Backend Developer' 
+                                    Description='Pacifiko.com is an ecommerce enterprise in Guatemala. It has been positioned 
+                                    as one of the leading eccomerce companies for months and it is always offering 
+                                    a goodcustomer service by maintaining good prices and promostions that motivates the clients 
+                                    to choose Pacifiko. Pacifiko has a principal priority, the customer: "Our customers go first".
+                                    I am currently working here and I can say that I have learnt a lot, to mention some things: python 
+                                    processes for statistic reports, google drive interaction, emails and scraping. 
+                                    EC2 servers administration, php and its interactions with MySQL. Delivey APIs and more.'
+                                    src={pacifiko}>
                                 </ModExp>
                             </LightSpeed>
                         </div>
