@@ -30,33 +30,68 @@ const abilities = (props) => {
                         <AbModule skill='Postgresql' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
                         */}<AbModule skill='MySQL' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                         <AbModule skill='React' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                        <AbModule skill='Firebase' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
+                        <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                         <AbModule skill='Redux' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                         <AbModule skill='SCRUM' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                         <AbModule skill='UML' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                        <AbModule skill='Webpack' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                        <AbModule skill='Firebase' color1='MidnightBlue' color2='MidnightBlue' color3='CadetBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
-                        <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='CadetBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
+                        <AbModule skill='Webpack' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
+                        
                     </ul>
                 </Col>
             </Row>
             <div className='div-line-ab'></div>
+
+
+            <div ><h4 className='subtitle-ab'>AWS</h4></div>
+            <Row className='row-ab'>
+                <Col xs="6" className='col-ab'>
+                    <ul className='ul-ab'>
+                        
+                        <AbModule skill='EC2' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        <AbModule skill='Elasctic Load Balancers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        <AbModule skill='RDS' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        <AbModule skill='Eventbridge' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        
+                    </ul>
+                </Col>
+                <Col xs="6">
+                    <ul  className='ul-ab'>
+                        {/*<AbModule skill='OOP' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        <AbModule skill='Postgresql' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                        */}
+                        
+                        <AbModule skill='S3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
+                        <AbModule skill='Cloudfront' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>   
+                        <AbModule skill='Route53' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>  
+                        <AbModule skill='Cloudwatch' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                                                                                    
+                       
+                    </ul>
+                </Col>
+            </Row>
+            <div className='div-line-ab'></div>
+
+
             <div ><h4 className='subtitle-ab'>Electronics</h4></div>
             <Row className='row-ab'>
                 <Col xs="6" className='col-ab'>
                     <ul className='ul-ab'>   
-                        <AbModule skill='Digital electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
-                        <AbModule skill='Analog electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                    
-                        <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                        <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
-                        <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
+                        
+                        <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
+                        <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                        <AbModule skill='555' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                        <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
+
                     </ul>
                 </Col>
                 <Col xs="6">
                     <ul  className='ul-ab'>
                         {/*<AbModule skill='Cisco Switches' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
-                        */}<AbModule skill='Cisco Routers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
-                        <AbModule skill='Network programming' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                     
-                        <AbModule skill='Ethernet' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                        */} 
+                        <AbModule skill='Digital electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                   
+                        <AbModule skill='Analog electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
+                        <AbModule skill='Network programming' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
+                    
                     </ul>
                 </Col>
             </Row>
@@ -118,34 +153,53 @@ const abilities = (props) => {
                             <AbModule skill='MySQL' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
                             <AbModule skill='React' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
 
+                            <AbModule skill='MySQL' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                            <AbModule skill='React' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
+                            <AbModule skill='Firebase' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
+                            <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                             <AbModule skill='Redux' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='Javacript' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='SASS/SCSS' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='C++' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                             <AbModule skill='SCRUM' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
                             <AbModule skill='UML' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='Webpack' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='Firebase' color1='MidnightBlue' color2='MidnightBlue' color3='CadetBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            <AbModule skill='MongoDB' color1='MidnightBlue' color2='MidnightBlue' color3='CadetBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
+                            <AbModule skill='Webpack' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/>
                         </ul>
                     </Col>
                 </Row>
                 <div className='div-line-ab'></div>
+
+                <div ><h4 className='subtitle-ab'>AWS</h4></div>
+                <Row className='row-ab'>
+                    <Col xs="12" className='col-ab'>
+                        <ul className='ul-ab'>
+                            
+                            <AbModule skill='EC2' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                            <AbModule skill='Elasctic Load Balancers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                            <AbModule skill='RDS' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                            <AbModule skill='Eventbridge' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
+                            
+
+                            <AbModule skill='S3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>                                    
+                            <AbModule skill='Cloudfront' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>   
+                            <AbModule skill='Route53' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>  
+                            <AbModule skill='Cloudwatch' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                                                                                    
+                            
+                        </ul>
+                    </Col>
+                </Row>
+                <div className='div-line-ab'></div>
+                
                 <div ><h4 className='subtitle-ab'>Electronics</h4></div>
                 <Row className='row-ab'>
                     <Col xs="12" className='col-ab'>
                         <ul className='ul-ab'>   
-                            <AbModule skill='Digital electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>
-                            <AbModule skill='Cisco Switches' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='MidnightBlue'/>   
-                            <AbModule skill='Cisco Routers' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>                                    
-                            <AbModule skill='Analog electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/>
-                            
-                            <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
-                            
-                            <AbModule skill='Network programming' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                     
-                            <AbModule skill='Ethernet' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
-                            <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
-                            <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
+                            <AbModule skill='Arduino' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='MidnightBlue' color6='CadetBlue'/> 
+                            <AbModule skill='PIC' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                            <AbModule skill='555' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>   
+                            <AbModule skill='RaspBerry Pi 3' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/> 
+
+                            <AbModule skill='Digital electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>                                   
+                            <AbModule skill='Analog electronics' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='MidnightBlue' color5='CadetBlue' color6='CadetBlue'/>
+                            <AbModule skill='Network programming' color1='MidnightBlue' color2='MidnightBlue' color3='MidnightBlue' color4='CadetBlue' color5='CadetBlue' color6='CadetBlue'/> 
+                    
                         </ul>
                     </Col>
                 </Row>

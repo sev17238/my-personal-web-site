@@ -106,7 +106,7 @@ class Experiences extends Component {
                             <LightSpeed left>
                                 <ModExp 
                                     width={this.props.width}
-                                    Name='Pacifiko.com' 
+                                    Name='pacifiko.com' 
                                     Date='Feb 2021 - Today' 
                                     Acknowledgment='Part Time - Frontend and Backend Developer' 
                                     Description='Pacifiko.com is an ecommerce enterprise in Guatemala. It has been positioned 
